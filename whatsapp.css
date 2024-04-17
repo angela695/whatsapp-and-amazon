@@ -1,0 +1,218 @@
+*{
+    border : border-box ;
+    color : white ;
+    font-family: arial ;
+}
+.body-nav-mess {
+    width : 30% ;
+}
+
+body {
+    display : flex ;
+}
+
+/* NAVBAR OPTIONS */
+.width {
+    width : 30% ;
+}
+
+.contrast {
+    color : white ;
+}
+header {
+    width: 100% ;
+}
+
+.navbar {
+    padding : 10px 16px  ;
+    height: 40px ;
+    background-color: #202c33;
+    border : none ;
+    display : flex ;
+    align-items: center;
+}
+
+.profile {
+    width : 40px ;
+    height : 40px ;
+    background-image: url("apple.jpg");
+    background-size: contain ;
+    border-radius : 50% ;
+    /*margin-left : 20px ;*/
+}
+
+.profile-pic {
+    width : 100% ;
+}
+
+.icons  {
+    width : 220px ;
+    display : flex ;
+    align-items: center ;
+    justify-content: space-around;
+}
+
+.icons i {
+    font-size: 1.3rem ;
+    cursor: pointer;
+    margin : 0 1.5rem 0 0  ;
+}
+
+/*NAVBAR SEARCH*/
+
+.navbar-search {
+    width : 100% ;
+    height : 50px ;
+    background-color: #111B21;
+    border:none;
+    display : flex ;
+    align-items: center;
+}
+
+.search-inp {
+    width : 80% ;
+}
+
+.search-inp input {
+    width : 100% ;
+    background-color: #202c33;
+    border: none ;
+    padding : 5px ;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.search {
+    width : 24px ;
+    height : 24px ;
+    padding: 1px 5px;
+    background-color: #202c33;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    margin-left : 10px ;
+
+}
+
+.search , .search-inp {
+    display : block ;
+}
+
+.filter {
+    height : 24px ;
+    width : 24px ;
+    text-align: center ;
+    margin-left : 14px ;
+}
+
+/*MAIN BODY WHERE THE MESSENGERS NAMES ARE DISPLAYED*/
+
+.border {
+    border-top :0.5px solid rgba(255,255,255,0.1) ;
+    border-bottom: 0.5px solid rgba(255,255,255,0.1) ;
+}
+main {
+    width : 100% ;
+    border :none ;
+    height : 100% ;
+}
+
+.messenger1 {
+    display : flex ;
+    align-items: center;
+    justify-content: center;
+    padding-right : 10px ;
+}
+
+.messenger1:hover {
+    opacity :0.5 ;
+}
+
+.messengers-profile {
+    height : 72px ;
+    width : 77px ;
+    display: flex ;
+    align-items: center ;
+    justify-content: center;
+}
+.shape-of-profile {
+    height : 50px ;
+    width : 50px;
+    border-radius: 50% ;
+}
+
+.messandtick {
+    display : flex ;
+    width : 80% ;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+.messengers {
+    width : 80% ;
+    height : 30px ;
+    display : flex ;
+    align-items: flex-start;
+}
+
+.bluetick i {
+    color : rgb(34, 127, 194) ;
+}
+
+ i {
+    opacity: 0.5 ;
+}
+
+.name {
+    font-size: 1.2rem ;
+}
+
+.messenger1 i {
+    height : 18px ;
+    width : 18px ;
+}
+
+@media (max-width : 1200px) {
+    header , main {
+        width : 350px ;
+    }
+}
+
+.big-body {
+    border-left :1px solid rgba(255 ,255 ,255 ,0.1);
+    width: 70% ;
+    display : flex ;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center ;
+    background-color: #202c33;
+}
+
+.picture {
+    height : 190px ;
+    width : 320px ;
+    background-image: url("whatsapp.png");
+    background-size: contain;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
